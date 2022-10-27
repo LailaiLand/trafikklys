@@ -1,0 +1,36 @@
+.lysboks {
+    padding: 10px;
+    width: fit-content;
+    background-color: gray;
+    border: solid, 10px, black;
+}
+
+.rod {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    border: solid, 5px, darkred;
+}
+.gul {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.gronn {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.bil {
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    background-color: cadetblue;
+}
