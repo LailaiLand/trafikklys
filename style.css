@@ -1,11 +1,12 @@
-.lysboks {
+.lightBox {
     padding: 10px;
-    width: fit-content;
+    height: 640px;
+    width: 220px;
     background-color: gray;
     border: solid, 10px, black;
 }
 
-.rod {
+.redRing {
     margin: 10px;
     width: 200px;
     height: 200px;
@@ -13,14 +14,14 @@
     background-color: red;
     border: solid, 5px, darkred;
 }
-.gul {
+.yellowRing {
     margin: 10px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-color: yellow;
 }
-.gronn {
+.greenRing {
     margin: 10px;
     width: 200px;
     height: 200px;
@@ -28,9 +29,17 @@
     background-color: green;
 }
 
-.bil {
+.car {
     margin: 10px;
     height: 200px;
     width: 150px;
     background-color: cadetblue;
+}
+
+.standby{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: grey;
 }

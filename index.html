@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="lysboks">
-        <div class="rod"></div>
-        <div class="gul"></div>
-        <div class="gronn"></div>
-    </div>
-    <button onclick="lightColor(redLight)"  >Rødt</button>
-    <button onclick="lightColor(yellowLight)">Gult</button>
-    <button onclick="lightColor(greenLight)">Grønt</button>
-    <div class="bil">Tut tut</div>
 
+<body>
+    <div class="lightBox">
+        <div id="redBulb" class="standby"></div>
+        <div id="yellowBulb" class="standby"></div>
+        <div id=greenBulb class="standby"></div>
+    </div>
+    <button 
+        id="btnRed"
+        onmousedown="lightBulbRed('redRing')"
+        onmouseup="lightBulbRed('standby')"
+        >Rødt</button>
+        <button id="btnYellow"
+        onmousedown="lightBulbYellow('yellowRing')"
+        onmouseup="lightBulbYellow('standby')"
+        >Gult</button>
+        <button id="btnGreen"
+        onmousedown="lightBulbGreen('greenRing')"
+        onmouseup="lightBulbGreen('standby')"
+    >Grønt</button>
+    <div class="car">Tut tut</div>
+
+    <script defer src="script.js"></script>
 </body>
+
 </html>
