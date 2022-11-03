@@ -34,6 +34,7 @@
     height: 200px;
     width: 150px;
     background-color: cadetblue;
+    cursor: pointer;
 }
 
 .standby{
@@ -41,5 +42,21 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: grey;
+    background-color: rgb(101, 101, 101);
+}
+
+.lysknapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.knapp{
+    width: fit-content;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
